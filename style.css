@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+.frequently-asked-question-box{
+  width: 80%;
+  margin: 50px 0;
+  margin-inline: auto;
+}
+
+h4{
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #165A4A;
+}
+
+.question-box{
+ padding: 25px 0;
+  border-bottom: 1px solid #25313c;
+
+}
+
+.isnide-question-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.isnide-question-box p{
+  font-size: 0.9rem;
+  color: #25313c;
+}
+
+.profile-image-section{
+  margin-top: 40px;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+.profile-image-section img{
+  width: 40px;
+  border-radius: 100px;
+}
+
+.still-question-box p{
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.mobile-section{
+  margin-top: 25px;
+}
+
+.mobile-section h3{
+  text-align: center;
+  font-size: 1.02rem;
+  color: #165A4A;
+}
+
+.mobile-section span{
+  margin-left: 10px;
+}
+
+.mobile-box-phone-links{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.mobile-app-icon-links{
+  display: flex;
+  align-items: center;
+  background-color: #165A4A;
+  padding: 3px 2px;
+  gap: 3px;
+  border-radius: 5px;
+}
+.playstore-icon{
+  width: 30px;
+}
+
+.mobile-app-icon-links h3, .mobile-app-icon-links p{
+  color: #fff;
+}
+
+.get-it-on{
+  font-size: 0.8rem;
+  margin-bottom: 0;
+}
+
+.store-links{
+  font-weight: 500;
+  font-size: 1.3rem;
+  text-align: left;
+  margin-top: 0;
+}
+
+.apple-icon{
+  width: 45px;
+  filter: invert(100%);
+}
+
+.icon-names{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
