@@ -12,7 +12,7 @@ body{
 }
 
 .frequently-asked-question-box{
-  width: 80%;
+  width: 88%;
   margin: 50px 0;
   margin-inline: auto;
 }
@@ -41,7 +41,6 @@ h4{
 
 .profile-image-section{
   margin-top: 40px;
- 
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,13 +48,14 @@ h4{
   margin-bottom: 10px;
 }
 .profile-image-section img{
-  width: 40px;
+  width: 50px;
   border-radius: 100px;
+  border: 2px solid #165a4a46;
 }
 
 .still-question-box p{
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 .mobile-section{
@@ -77,7 +77,7 @@ h4{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
+  gap: 1rem;
 }
 
 .mobile-app-icon-links{
@@ -89,7 +89,7 @@ h4{
   border-radius: 5px;
 }
 .playstore-icon{
-  width: 30px;
+  width: 40px;
 }
 
 .mobile-app-icon-links h3, .mobile-app-icon-links p{
@@ -97,19 +97,19 @@ h4{
 }
 
 .get-it-on{
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   margin-bottom: 0;
 }
 
 .store-links{
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 0.9rem;
   text-align: left;
   margin-top: 0;
 }
 
 .apple-icon{
-  width: 45px;
+  width: 40px;
   filter: invert(100%);
 }
 
